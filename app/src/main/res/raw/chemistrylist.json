@@ -1,0 +1,73 @@
+{
+  "questionList": [
+    {
+      "id": 1,
+      "questionText": "Mekkora tömegű oxidion tartalmaz 1·10^23 db elektront?",
+      "answerArray":
+      [
+        "266,7 mg",
+        "333 mg",
+        "2,67 g",
+        "26,7 g",
+        "21,3 g"
+      ],
+      "correctAnswerIndex": 0
+
+    },
+    {
+      "id": 2,
+      "questionText": " Az alábbiak közül melyik molekulában van a legerősebb kötés?",
+      "answerArray":
+      [
+        "Cl2",
+        "O2",
+        "N2",
+        "H2",
+        "F2"
+      ],
+      "correctAnswerIndex": 2
+
+    },
+    {
+      "id": 3,
+      "questionText": "A deutérium..",
+      "answerArray":
+      [
+        "az atomos hidrogén neve",
+        "a durranógáz másik neve",
+        "az egyik hidrogénizotóp neve",
+        "hidrogén és az oxigén keveréke",
+        "a hidrogén vegyülete"
+      ],
+      "correctAnswerIndex": 2
+
+    },
+    {
+      "id": 4,
+      "questionText": " A vízben a legjobban oldódik : ",
+      "answerArray":
+      [
+        "az oxigén",
+        "a hidrogén",
+        "a szén-monoxid",
+        "a hidrogén-klorid",
+        "a nitrogén"
+      ],
+      "correctAnswerIndex": 3
+
+    },
+    {
+      "id": 5,
+      "questionText": " Az alábbiak közül a legnagyobb a sűrűsége: ",
+      "answerArray":
+      [
+        "a klórnak",
+        "a hidrogénnek",
+        "a héliumnak",
+        "a nitrogénnek",
+        "az oxigénnek"
+      ],
+      "correctAnswerIndex": 4
+    }
+  ]
+}

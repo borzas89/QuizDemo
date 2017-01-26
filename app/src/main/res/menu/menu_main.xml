@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Shuffle" app:showAsAction="never" android:orderInCategory="100" android:id="@+id/shuffle"/>
+    <item android:title="Score" app:showAsAction="never" android:orderInCategory="200" android:id="@+id/score"/>
+
+
+
+</menu>
