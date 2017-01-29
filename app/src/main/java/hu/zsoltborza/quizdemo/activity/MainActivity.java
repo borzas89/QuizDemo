@@ -6,9 +6,12 @@ import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.LinearSnapHelper;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SnapHelper;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -26,6 +29,7 @@ import hu.zsoltborza.quizdemo.R;
 import hu.zsoltborza.quizdemo.adapter.QuizRecyclerAdapter;
 import hu.zsoltborza.quizdemo.domain.Quiz;
 import hu.zsoltborza.quizdemo.domain.QuizItem;
+import hu.zsoltborza.quizdemo.utilities.CustomSnapHelper;
 
 public class MainActivity extends AppCompatActivity implements QuizRecyclerAdapter.RecyclerViewClickListener{
 
@@ -54,14 +58,17 @@ public class MainActivity extends AppCompatActivity implements QuizRecyclerAdapt
         recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
         recyclerView.setLayoutManager(mLinearLayoutManagerVertical);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
+        CustomSnapHelper snapHelper = new CustomSnapHelper(Gravity.TOP);
+        snapHelper.attachToRecyclerView(recyclerView);
 
-        quizList = getQuizFromFile();
+        /*quizList = getQuizFromFile();
 
         mAdapter = new QuizRecyclerAdapter(MainActivity.this,
                 R.layout.quiz_list_row,this,quizList);
 
         recyclerView.setAdapter(mAdapter);
-        mAdapter.notifyDataSetChanged();
+        mAdapter.notifyDataSetChanged();*/
+        shuffleAll();
 
     }
 
@@ -94,8 +101,15 @@ public class MainActivity extends AppCompatActivity implements QuizRecyclerAdapt
         quizList = getQuizFromFile();
 
         Collections.shuffle(quizList);
+
+        List<QuizItem> fiveQuestionList = new ArrayList<>();
+
+        for(int i = 0; i<6; i++){
+            fiveQuestionList.add(i,quizList.get(i));
+        }
+
         mAdapter = new QuizRecyclerAdapter(MainActivity.this,
-                R.layout.quiz_list_row,this,quizList);
+                R.layout.quiz_list_row,this,fiveQuestionList);
 
         recyclerView.setAdapter(mAdapter);
         mAdapter.notifyDataSetChanged();

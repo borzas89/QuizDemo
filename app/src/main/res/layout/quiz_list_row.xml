@@ -12,7 +12,7 @@
 
     <TextView
         android:text="Qestion?"
-        android:textSize="20dp"
+        android:textSize="15dp"
         android:id="@+id/tvQestion"
         android:textColor="@android:color/black"
         android:textStyle="bold"
@@ -24,7 +24,7 @@
     <TextView
         android:id="@+id/tvAnswerA"
         android:text="AnswerA"
-        android:textSize="25dp"
+        android:textSize="15dp"
         android:gravity="center"
         android:background="@drawable/answers"
         android:textColor="@android:color/black"
@@ -36,7 +36,7 @@
         android:id="@+id/tvAnswerB"
         android:text="AnswerB"
         android:gravity="center"
-        android:textSize="25dp"
+        android:textSize="15dp"
         android:background="@drawable/answers"
         android:textColor="@android:color/black"
         android:layout_width="match_parent"
@@ -45,7 +45,7 @@
     <TextView
         android:id="@+id/tvAnswerC"
         android:text="AnswerC"
-        android:textSize="25dp"
+        android:textSize="15dp"
         android:gravity="center"
         android:background="@drawable/answers"
         android:textColor="@android:color/black"
@@ -55,7 +55,7 @@
     <TextView
         android:id="@+id/tvAnswerD"
         android:text="AnswerD"
-        android:textSize="25dp"
+        android:textSize="15dp"
         android:gravity="center"
         android:background="@drawable/answers"
         android:textColor="@android:color/black"
@@ -65,7 +65,7 @@
     <TextView
         android:id="@+id/tvAnswerE"
         android:text="AnswerE"
-        android:textSize="25dp"
+        android:textSize="15dp"
         android:gravity="center"
         android:background="@drawable/answers"
         android:textColor="@android:color/black"

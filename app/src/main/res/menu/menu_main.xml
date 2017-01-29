@@ -2,8 +2,8 @@
 
 <menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Shuffle" app:showAsAction="never" android:orderInCategory="100" android:id="@+id/shuffle"/>
-    <item android:title="Score" app:showAsAction="never" android:orderInCategory="200" android:id="@+id/score"/>
+    <item android:title="Új kör" app:showAsAction="never" android:orderInCategory="100" android:id="@+id/shuffle"/>
+    <item android:title="Pontok" app:showAsAction="never" android:orderInCategory="200" android:id="@+id/score"/>
 
 
 

@@ -2,7 +2,7 @@
   "questionList": [
     {
       "id": 1,
-      "questionText": "Mekkora tömegű oxidion tartalmaz 1·10^23 db elektront?",
+      "questionText": "Mekkora  tömegű oxidion tartalmaz 1·10\u00B2\u00B3 db elektront?",
       "answerArray":
       [
         "266,7 mg",
@@ -19,11 +19,11 @@
       "questionText": " Az alábbiak közül melyik molekulában van a legerősebb kötés?",
       "answerArray":
       [
-        "Cl2",
-        "O2",
-        "N2",
-        "H2",
-        "F2"
+        "Cl\u2082",
+        "O\u2082",
+        "N\u2082",
+        "H\u2082",
+        "F\u2082"
       ],
       "correctAnswerIndex": 2
 
@@ -68,6 +68,125 @@
         "az oxigénnek"
       ],
       "correctAnswerIndex": 4
+    },
+
+    {
+      "id": 6,
+      "questionText":
+      "Ha NaCl-oldatot higany katód és grafit anód között elektrolízálunk (megfelelő, nem túl nagy feszültséggel),akkor\na katódon a nátriumionok redukálódnak... (a)\naz anódon a kloridionok semlegesítődnek ... (b)\naz anód környezetében az oldat gyengén savas lesz................... (c)\na katód környezetében az oldat lúgosodik ........ (d)\nMelyek az előzőek közül a helyes megállapítások? ",
+
+      "answerArray":
+      [
+        "(a), (b), (c) ",
+        "csak (a) és (b) ",
+        " csak a (b) és (c) ",
+        " csak a (b) és (d) ",
+        "mindegyik igaz"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 7,
+      "questionText":
+      "Egy vegyület halványzöld színű, vizes oldatából NaOH hatására zöld színű, AgNO\u2083-oldat hatására\nfehér csapadék válik le. Ha a halványzöld oldatba klórgázt vezetünk vagy hidrogén-peroxidoldatot öntünk,\n akkor az oldat színe sárgára változik.\n Mi lehetett a halványzöld vegyület?",
+      "answerArray":
+      [
+
+        "Fe(NO\u2083)\u2082",
+        "FeCl\u2083",
+        "FeCl\u2082",
+        "NiCl\u2082",
+        "Ni(NO\u2083)\u2082"
+
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 8,
+      "questionText":
+      "Melyik sor tartalmazza csupa olyan elem vegyjelét, amelynek alapállapotú atomjai 2 párosítatlan elektront tartalmaznak?",
+      "answerArray":
+      [
+
+        "Ca, C, O, S",
+        "Ni, Si, S, C",
+        "Mg, C, O, Zn",
+        "Ca, Mg, Sr, Ba",
+        "minden páros rendszámú elem"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 9,
+      "questionText":
+      "Melyikben +4 a S oxidációs száma?",
+      "answerArray":
+      [
+        "H\u2082S",
+        "Na\u2082S\u2082O\u2083",
+        "Na\u2082SO\u2083",
+        "SO\u2083",
+        "SO\u00B2 \u2084 \u208B"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 10,
+      "questionText":
+      "Melyik esetben NEM válik le csapadék?",
+      "answerArray":
+      [
+        "ezüst-nitrát-oldat + sósav",
+        "bárium-klorid-oldat + kénsavoldat",
+        "vas(II)-szulfát-oldat + nátrium-hidroxid-oldat",
+        "kálium-nitrát-oldat + nátrium-hidroxid-oldat",
+        "kalcium-klorid-oldat + trinátrium-foszfát-oldat"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 11,
+      "questionText":
+      "Melyik fém hevítésekor NEM a feltüntetett reakció megy végbe?",
+      "answerArray":
+      [
+        "4 Na + O\u2082 = 2 Na\u2082O",
+        "4 Al + 3O\u2082 = 2 Al\u2082O\u2083",
+        "2 Ca + O\u2082 = 2 CaO",
+        "2 Mg + O\u2082 = 2 MgO",
+        "2 Pb + O\u2082 = 2 PbO"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 12,
+      "questionText":
+      "Melyik molekulában van a legtöbb nemkötő elektronpár?",
+
+      "answerArray":
+      [
+        "CH\u2084",
+        "CO\u2082",
+        "PCl\u2083",
+        "H\u2082S",
+        "SO\u2082"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 13,
+      "questionText":
+      "Melyik sor tartalmaz minden rácstípusra példát?",
+
+      "answerArray":
+      [
+        "KCl, Ne, CO\u2082, Fe",
+        "NaCl, C gyémánt, Al, H\u2082O",
+        "Na\u2082SO\u2084, NH\u2083, P\u2084, Fe",
+        "P\u2084, SiO\u2082, NO\u2082, Cu",
+        "He, CO\u2082, NaNO\u2083, Na"
+      ],
+      "correctAnswerIndex": 1
     }
   ]
 }
