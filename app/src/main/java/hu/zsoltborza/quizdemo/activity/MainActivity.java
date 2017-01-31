@@ -1,10 +1,12 @@
 package hu.zsoltborza.quizdemo.activity;
 
+import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.LinearSnapHelper;
 import android.support.v7.widget.RecyclerView;
@@ -37,8 +39,6 @@ public class MainActivity extends AppCompatActivity implements QuizRecyclerAdapt
     private RecyclerView recyclerView;
     private QuizRecyclerAdapter mAdapter;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,6 +61,10 @@ public class MainActivity extends AppCompatActivity implements QuizRecyclerAdapt
         CustomSnapHelper snapHelper = new CustomSnapHelper(Gravity.TOP);
         snapHelper.attachToRecyclerView(recyclerView);
 
+        shuffleAll();
+/*
+
+ */
         /*quizList = getQuizFromFile();
 
         mAdapter = new QuizRecyclerAdapter(MainActivity.this,
@@ -68,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements QuizRecyclerAdapt
 
         recyclerView.setAdapter(mAdapter);
         mAdapter.notifyDataSetChanged();*/
-        shuffleAll();
+
 
     }
 

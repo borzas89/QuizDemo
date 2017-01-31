@@ -73,14 +73,14 @@
     {
       "id": 6,
       "questionText":
-      "Ha NaCl-oldatot higany katód és grafit anód között elektrolízálunk (megfelelő, nem túl nagy feszültséggel),akkor\na katódon a nátriumionok redukálódnak... (a)\naz anódon a kloridionok semlegesítődnek ... (b)\naz anód környezetében az oldat gyengén savas lesz................... (c)\na katód környezetében az oldat lúgosodik ........ (d)\nMelyek az előzőek közül a helyes megállapítások? ",
+      "Ha NaCl-oldatot higany katód és grafit anód között elektrolízálunk (megfelelő, nem túl nagy feszültséggel),akkor a katódon a nátriumionok redukálódnak....(a) az anódon a kloridionok semlegesítődnek .... (b) az anód környezetében az oldat gyengén savas lesz..... (c) a katód környezetében az oldat lúgosodik ........ (d) \n Melyek az előzőek közül a helyes megállapítások? ",
 
       "answerArray":
       [
         "(a), (b), (c) ",
         "csak (a) és (b) ",
-        " csak a (b) és (c) ",
-        " csak a (b) és (d) ",
+        "csak a (b) és (c) ",
+        "csak a (b) és (d) ",
         "mindegyik igaz"
       ],
       "correctAnswerIndex": 1
@@ -88,7 +88,7 @@
     {
       "id": 7,
       "questionText":
-      "Egy vegyület halványzöld színű, vizes oldatából NaOH hatására zöld színű, AgNO\u2083-oldat hatására\nfehér csapadék válik le. Ha a halványzöld oldatba klórgázt vezetünk vagy hidrogén-peroxidoldatot öntünk,\n akkor az oldat színe sárgára változik.\n Mi lehetett a halványzöld vegyület?",
+      "Egy vegyület halványzöld színű, vizes oldatából NaOH hatására zöld színű, AgNO\u2083-oldat hatására fehér csapadék válik le. Ha a halványzöld oldatba klórgázt vezetünk vagy hidrogén-peroxidoldatot öntünk, akkor az oldat színe sárgára változik.\n Mi lehetett a halványzöld vegyület?",
       "answerArray":
       [
 
@@ -181,12 +181,316 @@
       "answerArray":
       [
         "KCl, Ne, CO\u2082, Fe",
-        "NaCl, C gyémánt, Al, H\u2082O",
+        "NaCl, C \u2082gyémánt, Al, H\u2082O",
         "Na\u2082SO\u2084, NH\u2083, P\u2084, Fe",
         "P\u2084, SiO\u2082, NO\u2082, Cu",
         "He, CO\u2082, NaNO\u2083, Na"
       ],
       "correctAnswerIndex": 1
+    },
+    {
+      "id": 14,
+      "questionText":"Melyik vegyület, illetve ion amfoter tulajdonságú? ",
+
+      "answerArray":
+      [
+
+        " NH\u2084 \u002B+",
+        " HCl",
+        " H\u2082S",
+        " H\u2082O",
+        " OH\u208B"
+
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 15,
+      "questionText":"Melyik állítás igaz egyaránt a 0,1 mol/dm\u208B3-es HCl- és a 0,1 mol/dm\u208B3-es NaOH-oldatok azonos térfogataira?",
+
+      "answerArray":
+      [
+
+        "A két oldatnak azonos a OH\u208B– koncentrációja.",
+        "A két oldatnak azonos a pH\u208b-ja.",
+        "Mindkét oldatra érvényes, hogy a pH és a pOH összege 14.",
+        "A két oldatnak azonos a sűrűsége.",
+        "A két oldatban azonos tömegű oldott anyag van."
+
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 16,
+      "questionText":"Egy színtelen, szúrós szagú gáz vízben oldódik, vizes oldatában a fenolftalein indikátor liláspiros elszíneződést mutat. Melyik ez a gáz?? ",
+
+      "answerArray":
+      [
+        " a kén-dioxid",
+        " a hidrogén-klorid",
+        " a dihidrogén-szulfid",
+        " a szén-dioxid",
+        " az ammónia"
+
+      ],
+      "correctAnswerIndex": 4
+    },
+    {
+      "id": 17,
+      "questionText":"nincs meg  - 2,3 g nátrium ( Na 23 11 ) hány darab neutront tartalmaz?  ",
+
+      "answerArray":
+      [
+        " a kén-dioxid",
+        " a hidrogén-klorid",
+        " a dihidrogén-szulfid",
+        " a szén-dioxid",
+        " az ammónia"
+
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 18,
+      "questionText":"A felsorolt vegyületeket vízben oldjuk. Melyik esetekben tér el az oldat pH-ja a semlegességi ponttól? \n  a) NH\u2083 b) KNO\u2083 c) Na\u2082CO\u2083 d) NaCl e) NH\u2084Cl ?  ",
+
+      "answerArray":
+      [
+        "mindegyiknél",
+        "a, c és e esetében",
+        "b és d esetében",
+        "csak az a-nál",
+        "b és c esetében"
+
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 19,
+      "questionText":"Melyik állítás igaz? - képletes",
+
+      "answerArray":
+      [
+        "A víz apoláris molekula.",
+        "A hidrogén-fluorid asszociátumokat képez.",
+        "A hidrogén-klorid nehezen cseppfolyósítható.",
+        "Az H\u0208O\u208B+ -ionok savként és bázisként is viselkedhetnek.",
+        "A hidrogén-fluorid erősebb sav, mint a hidrogén-jodid."
+
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 20,
+      "questionText":"Az oxigént nem lehet előállítani: ",
+
+      "answerArray":
+      [
+        "kálium-permanganátból",
+        "hidrogén-peroxidból",
+        "mangán-dioxidból",
+        "higany-oxidból",
+        "levegőből"
+
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 21,
+      "questionText":"nincs megy: ",
+
+      "answerArray":
+      [
+        "kálium-permanganátból",
+        "hidrogén-peroxidból",
+        "mangán-dioxidból",
+        "higany-oxidból",
+        "levegőből"
+
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": 22,
+      "questionText":"Melyik állítás igaz minden fémre?: ",
+
+      "answerArray":
+      [
+        "A fémek mindegyike jó mechanikai tulajdonságú, szilárd halmazállapotú anyag.",
+        "Korróziójukat a környezet redukáló hatása okozza.",
+        "Oxigénnel magas hőmérsékleten mindegyik stabil oxidot ad.",
+        "Standard elektródpotenciáljuk negatív.",
+        "Előállításuk vegyületeikből minden esetben redukcióval történik."
+
+      ],
+      "correctAnswerIndex": 4
+    },
+    {
+      "id": 23,
+      "questionText":"nincsmeg?: ",
+
+      "answerArray":
+      [
+        "A fémek mindegyike jó mechanikai tulajdonságú, szilárd halmazállapotú anyag.",
+        "Korróziójukat a környezet redukáló hatása okozza.",
+        "Oxigénnel magas hőmérsékleten mindegyik stabil oxidot ad.",
+        "Standard elektródpotenciáljuk negatív.",
+        "Előállításuk vegyületeikből minden esetben redukcióval történik."
+
+      ],
+      "correctAnswerIndex": 4
+    },
+    {
+      "id": 24,
+      "questionText":"Brómos vizet öntünk hidrogén-jodid-oldatba. Melyik megállapítás igaz a lejátszódó folyamatra?",
+
+      "answerArray":
+      [
+        "A hidrogén-jodid oxidálja a brómot.",
+        "Csak protolitikus folyamat játszódik le, és hidrogén-bromid keletkezik.",
+        "A bróm redukálja a jódot.",
+        "A jodidion oxidálódik, a bróm redukálódik.",
+        "A jód kiválik, mert az erősebb sav kiszorítja a gyengébbet a vegyületéből.."
+
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 25,
+      "questionText":"Az alábbi állítások közül melyik igaz a kénre?",
+
+      "answerArray":
+      [
+        "Atomosan fordul elő.",
+        "Elégetve kén-trioxid keletkezik belőle.",
+        "Vízben jól oldódik.",
+        "A természetben elemi állapotban előfordul.",
+        "Nincs allotrop módosulata.."
+
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 26,
+      "questionText":"nincs meh?",
+
+      "answerArray":
+      [
+        "Atomosan fordul elő.",
+        "Elégetve kén-trioxid keletkezik belőle.",
+        "Vízben jól oldódik.",
+        "A természetben elemi állapotban előfordul.",
+        "Nincs allotrop módosulata."
+
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 27,
+      "questionText":"Az alábbi megállapítások közül melyik állítás hibás?",
+
+      "answerArray":
+      [
+        "A mészégetés redoxireakció.",
+        "A mészoltás sav-bázis reakció.",
+        "Az oltott mész képes megkötni a levegő szén-dioxid-tartalmát.",
+        "A mészoltás exoterm folyamat.",
+        "A mészégetés endoterm folyamat."
+
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 28,
+      "questionText":"Az alábbiak közül melyik fém reagál vízzel a leghevesebben?",
+
+      "answerArray":
+      [
+        "a kálcium",
+        "a vas",
+        "a réz",
+        "a nátrium",
+        "az aluminium"
+
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 29,
+      "questionText":"Azonos tömegű hidrogén- és szén-monoxid-gáz térfogataránya (azonos hőmérsékleten és nyomáson?",
+
+      "answerArray":
+      [
+        " 1 : 14",
+        " 1 : 2",
+        " 28 : 1",
+        " 14 : 1",
+        " 1 : 1"
+
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 30,
+      "questionText":"Melyik reakció endoterm? - nincs",
+
+      "answerArray":
+      [
+        " 1 : 14",
+        " 1 : 2",
+        " 28 : 1",
+        " 14 : 1",
+        " 1 : 1"
+
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 31,
+      "questionText":"Az alábbiak közül melyik vegyület vízben oldásakor kapjuk a legnagyobb pH-jú oldatot? - nincs",
+
+      "answerArray":
+      [
+        " 1 : 14",
+        " 1 : 2",
+        " 28 : 1",
+        " 14 : 1",
+        " 1 : 1"
+
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 32,
+      "questionText":"Ammóniával nem lép reakcióba:",
+
+      "answerArray":
+      [
+        " az oxigén",
+        " a víz",
+        " a hidrogén-klorid",
+        " a nátrium-hidroxid",
+        " a kénsav"
+
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 33,
+      "questionText":"Ammóniával nem lép reakcióba:",
+
+      "answerArray":
+      [
+        " az oxigén",
+        " a víz",
+        " a hidrogén-klorid",
+        " a nátrium-hidroxid",
+        " a kénsav"
+
+      ],
+      "correctAnswerIndex": 3
     }
+
   ]
 }
+
