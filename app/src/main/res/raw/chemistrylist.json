@@ -181,7 +181,7 @@
       "answerArray":
       [
         "KCl, Ne, CO\u2082, Fe",
-        "NaCl, C \u2082gyémánt, Al, H\u2082O",
+        "NaCl, C gyémánt, Al, H\u2082O",
         "Na\u2082SO\u2084, NH\u2083, P\u2084, Fe",
         "P\u2084, SiO\u2082, NO\u2082, Cu",
         "He, CO\u2082, NaNO\u2083, Na"
@@ -195,7 +195,7 @@
       "answerArray":
       [
 
-        " NH\u2084 \u002B+",
+        " NH\u2084\u207A",
         " HCl",
         " H\u2082S",
         " H\u2082O",
@@ -206,13 +206,13 @@
     },
     {
       "id": 15,
-      "questionText":"Melyik állítás igaz egyaránt a 0,1 mol/dm\u208B3-es HCl- és a 0,1 mol/dm\u208B3-es NaOH-oldatok azonos térfogataira?",
+      "questionText":"Melyik állítás igaz egyaránt a 0,1 mol/dm \u00B3-es HCl- és a 0,1 mol/dm\u00B3-es NaOH-oldatok azonos térfogataira?",
 
       "answerArray":
       [
 
-        "A két oldatnak azonos a OH\u208B– koncentrációja.",
-        "A két oldatnak azonos a pH\u208b-ja.",
+        "A két oldatnak azonos a OH\u207B koncentrációja.",
+        "A két oldatnak azonos a pH-ja.",
         "Mindkét oldatra érvényes, hogy a pH és a pOH összege 14.",
         "A két oldatnak azonos a sűrűsége.",
         "A két oldatban azonos tömegű oldott anyag van."
@@ -222,7 +222,7 @@
     },
     {
       "id": 16,
-      "questionText":"Egy színtelen, szúrós szagú gáz vízben oldódik, vizes oldatában a fenolftalein indikátor liláspiros elszíneződést mutat. Melyik ez a gáz?? ",
+      "questionText":"Egy színtelen, szúrós szagú gáz vízben oldódik, vizes oldatában a fenolftalein indikátor liláspiros elszíneződést mutat. Melyik ez a gáz? ",
 
       "answerArray":
       [
@@ -237,15 +237,15 @@
     },
     {
       "id": 17,
-      "questionText":"nincs meg  - 2,3 g nátrium ( Na 23 11 ) hány darab neutront tartalmaz?  ",
+      "questionText":"2,3 g nátrium ( Na \u00B2\u00B3 \u2081\u2081) hány darab neutront tartalmaz?",
 
       "answerArray":
       [
-        " a kén-dioxid",
-        " a hidrogén-klorid",
-        " a dihidrogén-szulfid",
-        " a szén-dioxid",
-        " az ammónia"
+        " 6.6*10\u00B2\u00B3 db",
+        " 1.38*10\u00B2\u00B3 db",
+        " 7.2*10\u00B2\u00B3 db",
+        " 6*10\u00B2\u00B2 db",
+        " 7*10\u00B2\u00B4 db"
 
       ],
       "correctAnswerIndex": 3
@@ -267,14 +267,14 @@
     },
     {
       "id": 19,
-      "questionText":"Melyik állítás igaz? - képletes",
+      "questionText":"Melyik állítás igaz?",
 
       "answerArray":
       [
         "A víz apoláris molekula.",
         "A hidrogén-fluorid asszociátumokat képez.",
         "A hidrogén-klorid nehezen cseppfolyósítható.",
-        "Az H\u0208O\u208B+ -ionok savként és bázisként is viselkedhetnek.",
+        "Az H\u02083O\u207A -ionok savként és bázisként is viselkedhetnek.",
         "A hidrogén-fluorid erősebb sav, mint a hidrogén-jodid."
 
       ],
@@ -297,22 +297,22 @@
     },
     {
       "id": 21,
-      "questionText":"nincs megy: ",
+      "questionText":"Mekkora a tömege 12.25 dm\u00b3 25 °C hőmérsékletű és 0.1 MPa nyomású neongáznak? Ar(Ne) = 20 ",
 
       "answerArray":
       [
-        "kálium-permanganátból",
-        "hidrogén-peroxidból",
-        "mangán-dioxidból",
-        "higany-oxidból",
-        "levegőből"
+        "1.0 g",
+        "20 g",
+        "2.0 g",
+        "10 g",
+        "0.10 g"
 
       ],
       "correctAnswerIndex": 2
     },
     {
       "id": 22,
-      "questionText":"Melyik állítás igaz minden fémre?: ",
+      "questionText":"Melyik állítás igaz minden fémre?",
 
       "answerArray":
       [
@@ -327,15 +327,15 @@
     },
     {
       "id": 23,
-      "questionText":"nincsmeg?: ",
+      "questionText":"Melyik sorban vannak azonos oxidációs számú központi atomok?",
 
       "answerArray":
       [
-        "A fémek mindegyike jó mechanikai tulajdonságú, szilárd halmazállapotú anyag.",
-        "Korróziójukat a környezet redukáló hatása okozza.",
-        "Oxigénnel magas hőmérsékleten mindegyik stabil oxidot ad.",
-        "Standard elektródpotenciáljuk negatív.",
-        "Előállításuk vegyületeikből minden esetben redukcióval történik."
+        "KMnO\u2084   KH(IO\u2083)\u2082   KClO\u2084",
+        "H\u2082SO\u2084   HClO\u2083   H\u2082CO\u2083",
+        "K\u2082MnO\u2084   K\u2082Cr\u2082O\u2087   (NH\u2084)\u2082SO\u2084.",
+        "H\u2082SO\u2084   Na\u2082S\u2082O\u2083   H\u2082SiO\u2083",
+        "Na\u2082S\u2084O\u2086   Fe\u2083O\u2084  NaClO\u2082"
 
       ],
       "correctAnswerIndex": 4
@@ -372,15 +372,15 @@
     },
     {
       "id": 26,
-      "questionText":"nincs meh?",
+      "questionText":"Hány darab iont tartalmaz 1 mol nátrium-klorid?",
 
       "answerArray":
       [
-        "Atomosan fordul elő.",
-        "Elégetve kén-trioxid keletkezik belőle.",
-        "Vízben jól oldódik.",
-        "A természetben elemi állapotban előfordul.",
-        "Nincs allotrop módosulata."
+        "2",
+        "1",
+        "2*10\u00B2\u00B3",
+        "6**10\u00B2\u00B3",
+        "1.2*10\u00B2\u00B4"
 
       ],
       "correctAnswerIndex": 3
@@ -432,30 +432,30 @@
     },
     {
       "id": 30,
-      "questionText":"Melyik reakció endoterm? - nincs",
+      "questionText":"Melyik reakció endoterm?",
 
       "answerArray":
       [
-        " 1 : 14",
-        " 1 : 2",
-        " 28 : 1",
-        " 14 : 1",
-        " 1 : 1"
+        " Fe + S = FeS",
+        " N\u2082 + 3 H\u2082 = 2 NH\u2083",
+        " N\u2082 + O\u2082 = 2 NO",
+        " C + O\u2082 = CO\u2082",
+        " S + O\u2082 = SO\u2082"
 
       ],
       "correctAnswerIndex": 3
     },
     {
       "id": 31,
-      "questionText":"Az alábbiak közül melyik vegyület vízben oldásakor kapjuk a legnagyobb pH-jú oldatot? - nincs",
+      "questionText":"Az alábbiak közül melyik vegyület vízben oldásakor kapjuk a legnagyobb pH-jú oldatot?",
 
       "answerArray":
       [
-        " 1 : 14",
-        " 1 : 2",
-        " 28 : 1",
-        " 14 : 1",
-        " 1 : 1"
+        "SO\u2082",
+        "NaCl",
+        "HCl",
+        "P\u2082O\u2083",
+        "CaO"
 
       ],
       "correctAnswerIndex": 3

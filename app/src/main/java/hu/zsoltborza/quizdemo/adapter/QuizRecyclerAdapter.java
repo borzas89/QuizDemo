@@ -39,8 +39,13 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
         this.mItemListener = itemListener;
     }
 
+    public void setClickListener(RecyclerViewClickListener itemClickListener) {
+        this.mItemListener = itemClickListener;
+    }
+
 
     public void answerChecker(String clickedAnswerText, int position, TextView answer) {
+
 
         final QuizItem quizList = mQuizItemList.get(position);
 
@@ -85,12 +90,11 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
         answerTextE.setTypeface(font);
 
 
-        QuizRecyclerAdapter.QuizViewHolder vh = new QuizViewHolder(itemView, new QuizRecyclerAdapter.RecyclerViewClickListener() {
+        final QuizRecyclerAdapter.QuizViewHolder vh = new QuizViewHolder(itemView, new QuizRecyclerAdapter.RecyclerViewClickListener() {
             public void recyclerViewListClicked(View v, int position) {
 
                 TextView selectedTextView = (TextView) v.findViewById(v.getId());
                 clickedAnswer = "";
-               // if ()
 
                 switch (v.getId()) {
                     case R.id.tvAnswerA:
@@ -108,11 +112,16 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
                     case R.id.tvAnswerE:
                         clickedAnswer = selectedTextView.getText().toString();
                         break;
+
+
                 }
 
                 answerChecker(clickedAnswer, position, selectedTextView);
+
             }
         });
+
+
         return  vh;
 
         // QuizViewHolder holder = new QuizViewHolder(itemView,mItemListener);

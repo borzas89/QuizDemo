@@ -58,8 +58,8 @@ public class MainActivity extends AppCompatActivity implements QuizRecyclerAdapt
         recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
         recyclerView.setLayoutManager(mLinearLayoutManagerVertical);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
-        CustomSnapHelper snapHelper = new CustomSnapHelper(Gravity.TOP);
-        snapHelper.attachToRecyclerView(recyclerView);
+       // CustomSnapHelper snapHelper = new CustomSnapHelper(Gravity.TOP);
+       // snapHelper.attachToRecyclerView(recyclerView);
 
         shuffleAll();
 /*
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity implements QuizRecyclerAdapt
 
         Collections.shuffle(quizList);
 
-        List<QuizItem> fiveQuestionList = new ArrayList<>();
+        List<QuizItem> fiveQuestionList =  new ArrayList<>();
 
         for(int i = 0; i<6; i++){
             fiveQuestionList.add(i,quizList.get(i));
