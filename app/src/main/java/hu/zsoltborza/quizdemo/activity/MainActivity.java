@@ -49,8 +49,10 @@ public class MainActivity extends AppCompatActivity implements QuizRecyclerAdapt
         setupRecyclerView();
     }
 
+
     public void setupRecyclerView(){
 
+        // Lookup the recyclerview in activity layout
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(recyclerView.getContext()));
         LinearLayoutManager mLinearLayoutManagerVertical = new LinearLayoutManager(MainActivity.this);
@@ -58,25 +60,14 @@ public class MainActivity extends AppCompatActivity implements QuizRecyclerAdapt
         recyclerView.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
         recyclerView.setLayoutManager(mLinearLayoutManagerVertical);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
-       // CustomSnapHelper snapHelper = new CustomSnapHelper(Gravity.TOP);
-       // snapHelper.attachToRecyclerView(recyclerView);
+
+        CustomSnapHelper customSnapHelper = new CustomSnapHelper(Gravity.TOP);
+        customSnapHelper.attachToRecyclerView(recyclerView);
 
         shuffleAll();
-/*
-
- */
-        /*quizList = getQuizFromFile();
-
-        mAdapter = new QuizRecyclerAdapter(MainActivity.this,
-                R.layout.quiz_list_row,this,quizList);
-
-        recyclerView.setAdapter(mAdapter);
-        mAdapter.notifyDataSetChanged();*/
 
 
     }
-
-
 
     public List<QuizItem> getQuizFromFile(){
 
@@ -106,14 +97,8 @@ public class MainActivity extends AppCompatActivity implements QuizRecyclerAdapt
 
         Collections.shuffle(quizList);
 
-        List<QuizItem> fiveQuestionList =  new ArrayList<>();
-
-        for(int i = 0; i<6; i++){
-            fiveQuestionList.add(i,quizList.get(i));
-        }
-
         mAdapter = new QuizRecyclerAdapter(MainActivity.this,
-                R.layout.quiz_list_row,this,fiveQuestionList);
+                this,quizList);
 
         recyclerView.setAdapter(mAdapter);
         mAdapter.notifyDataSetChanged();
@@ -150,8 +135,6 @@ public class MainActivity extends AppCompatActivity implements QuizRecyclerAdapt
 
     @Override
     public void recyclerViewListClicked(View v, int position) {
-
-
 
     }
 }

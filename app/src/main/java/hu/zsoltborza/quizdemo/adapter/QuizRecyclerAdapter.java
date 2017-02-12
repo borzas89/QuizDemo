@@ -4,13 +4,16 @@ import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
+import android.support.design.widget.Snackbar;
 import android.support.v7.widget.RecyclerView;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import hu.zsoltborza.quizdemo.R;
@@ -23,7 +26,7 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
 
     private final List<QuizItem> mQuizItemList;
     private int rowLayout;
-    private Context context;
+    private Context mContext;
     private LayoutInflater inflater;
     private final TypedValue mTypedValue = new TypedValue();
     private RecyclerViewClickListener mItemListener;
@@ -31,10 +34,12 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
     String clickedAnswer;
     public static int score;
 
-    public QuizRecyclerAdapter(Context context, int rowLayout, RecyclerViewClickListener itemListener, List<QuizItem> quizList) {
+
+
+    public QuizRecyclerAdapter(Context context, RecyclerViewClickListener itemListener, List<QuizItem> quizList) {
         context.getTheme().resolveAttribute(R.attr.selectableItemBackground, mTypedValue, true);
         inflater = LayoutInflater.from(context);
-        this.rowLayout = rowLayout;
+        mContext = context;
         mQuizItemList = quizList;
         this.mItemListener = itemListener;
     }
@@ -47,18 +52,39 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
     public void answerChecker(String clickedAnswerText, int position, TextView answer) {
 
 
-        final QuizItem quizList = mQuizItemList.get(position);
-
+        final QuizItem quizItem = mQuizItemList.get(position);
         List<String> answers = mQuizItemList.get(position).getAnswerArray();
-        String correctAnswer = answers.get(quizList.getCorrectAnswerIndex());
+        String correctAnswer = answers.get(quizItem.getCorrectAnswerIndex());
 
-        if (correctAnswer.equals(clickedAnswerText)) {
-            score++;
-            answer.setBackgroundResource(R.drawable.correct_answer);
-        } else {
-            answer.setBackgroundResource(R.drawable.wrong_answer);
-        }
+        // enable only one try to answer the question
+     if(!quizItem.isClicked()) {
+         if (correctAnswer.equals(clickedAnswerText)) {
+             score++;
+             answer.setBackgroundResource(R.drawable.correct_answer);
+         } else {
+             answer.setBackgroundResource(R.drawable.wrong_answer);
+         }
+         quizItem.setClicked(true);
+     }else{
+         // show correct answer
+         String correctAnswerText = answers.get(quizItem.getCorrectAnswerIndex());
+        int correctNumber = quizItem.getCorrectAnswerIndex();
+
+         final Snackbar snackbar = Snackbar
+                 .make(answer, "A helyes válasz a(z):  " + correctAnswerText, Snackbar.LENGTH_LONG)
+                 .setAction("OK", new View.OnClickListener() {
+             @Override
+            public void onClick(View view) {
+
+             }
+         });
+
+         snackbar.show();
+     }
+
+
     }
+
 
     @Override
     public QuizViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -89,8 +115,11 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
         TextView answerTextE = (TextView) itemView.findViewById(R.id.tvAnswerE);
         answerTextE.setTypeface(font);
 
+        final QuizRecyclerAdapter.QuizViewHolder vh = new QuizViewHolder(itemView,
+                new QuizRecyclerAdapter.RecyclerViewClickListener() {
 
-        final QuizRecyclerAdapter.QuizViewHolder vh = new QuizViewHolder(itemView, new QuizRecyclerAdapter.RecyclerViewClickListener() {
+
+
             public void recyclerViewListClicked(View v, int position) {
 
                 TextView selectedTextView = (TextView) v.findViewById(v.getId());
@@ -112,8 +141,6 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
                     case R.id.tvAnswerE:
                         clickedAnswer = selectedTextView.getText().toString();
                         break;
-
-
                 }
 
                 answerChecker(clickedAnswer, position, selectedTextView);
@@ -121,24 +148,20 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
             }
         });
 
-
-        return  vh;
-
-        // QuizViewHolder holder = new QuizViewHolder(itemView,mItemListener);
-        //return holder;
+        return vh;
 
     }
 
 
     @Override
-    public void onBindViewHolder(final QuizViewHolder holder, final int position) {
-
+    public void onBindViewHolder(final QuizViewHolder holder, int position) {
 
         final QuizItem quizList = mQuizItemList.get(position);
 
         holder.Question.setText(quizList.getQuestionText());
 
         List<String> answers = quizList.getAnswerArray();
+
 
         holder.AnswerA.setText(answers.get(0));
         holder.AnswerB.setText(answers.get(1));
@@ -152,6 +175,13 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
     @Override
     public int getItemCount() {
         return mQuizItemList.size();
+    }
+
+
+    // To prevent items to be clicked another place too
+    @Override
+    public int getItemViewType(int position) {
+        return position;
     }
 
 
@@ -192,7 +222,7 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
 
         @Override
         public void onClick(View v) {
-
+            // Toast.makeText(mContext,getAdapterPosition(),Toast.LENGTH_SHORT).show();
             mItemListener.recyclerViewListClicked(v, this.getLayoutPosition());
         }
 

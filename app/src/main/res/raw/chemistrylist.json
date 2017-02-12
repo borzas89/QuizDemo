@@ -274,7 +274,7 @@
         "A víz apoláris molekula.",
         "A hidrogén-fluorid asszociátumokat képez.",
         "A hidrogén-klorid nehezen cseppfolyósítható.",
-        "Az H\u02083O\u207A -ionok savként és bázisként is viselkedhetnek.",
+        "Az H\u2083O\u207A -ionok savként és bázisként is viselkedhetnek.",
         "A hidrogén-fluorid erősebb sav, mint a hidrogén-jodid."
 
       ],
@@ -379,8 +379,8 @@
         "2",
         "1",
         "2*10\u00B2\u00B3",
-        "6**10\u00B2\u00B3",
-        "1.2*10\u00B2\u00B4"
+        "6*10\u00B2\u00B3",
+        "1.2*10\u00B2\u00B3"
 
       ],
       "correctAnswerIndex": 3

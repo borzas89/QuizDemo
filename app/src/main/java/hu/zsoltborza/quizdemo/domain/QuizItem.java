@@ -24,6 +24,16 @@ public class QuizItem {
     @Expose
     private Integer correctAnswerIndex;
 
+    boolean clicked;
+
+    public boolean isClicked() {
+        return clicked;
+    }
+
+    public void setClicked(boolean clicked) {
+        this.clicked = clicked;
+    }
+
     public Integer getId() {
         return id;
     }
