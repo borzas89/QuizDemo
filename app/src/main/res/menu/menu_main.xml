@@ -2,8 +2,13 @@
 
 <menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Új kör" app:showAsAction="never" android:orderInCategory="100" android:id="@+id/shuffle"/>
-    <item android:title="Pontok" app:showAsAction="never" android:orderInCategory="200" android:id="@+id/score"/>
+
+    <item android:id="@+id/break_timer"
+        android:title="Time"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.TextView" />
+    <item android:title="timer" android:icon="@drawable/play" app:showAsAction="always" android:orderInCategory="100" android:id="@+id/timer_button"/>
+
 
 
 

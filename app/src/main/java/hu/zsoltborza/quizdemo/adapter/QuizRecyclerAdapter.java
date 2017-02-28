@@ -1,6 +1,7 @@
 package hu.zsoltborza.quizdemo.adapter;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
@@ -10,6 +11,7 @@ import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -17,6 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import hu.zsoltborza.quizdemo.R;
+import hu.zsoltborza.quizdemo.activity.MainActivity;
 import hu.zsoltborza.quizdemo.domain.QuizItem;
 
 /**
@@ -25,7 +28,6 @@ import hu.zsoltborza.quizdemo.domain.QuizItem;
 public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapter.QuizViewHolder> {
 
     private final List<QuizItem> mQuizItemList;
-    private int rowLayout;
     private Context mContext;
     private LayoutInflater inflater;
     private final TypedValue mTypedValue = new TypedValue();
@@ -33,6 +35,12 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
 
     String clickedAnswer;
     public static int score;
+
+    public static int getScore() {
+        return score;
+    }
+
+
 
 
 
@@ -59,7 +67,8 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
         // enable only one try to answer the question
      if(!quizItem.isClicked()) {
          if (correctAnswer.equals(clickedAnswerText)) {
-             score++;
+             ++score;
+            MainActivity.updateToolBar(QuizRecyclerAdapter.getScore());
              answer.setBackgroundResource(R.drawable.correct_answer);
          } else {
              answer.setBackgroundResource(R.drawable.wrong_answer);
@@ -68,17 +77,21 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
      }else{
          // show correct answer
          String correctAnswerText = answers.get(quizItem.getCorrectAnswerIndex());
-        int correctNumber = quizItem.getCorrectAnswerIndex();
+         int correctNumber = quizItem.getCorrectAnswerIndex();
+
+        // answer.setBackgroundResource(R.drawable.correct_answer);
 
          final Snackbar snackbar = Snackbar
                  .make(answer, "A helyes válasz a(z):  " + correctAnswerText, Snackbar.LENGTH_LONG)
+
                  .setAction("OK", new View.OnClickListener() {
              @Override
             public void onClick(View view) {
 
              }
          });
-
+         View snackBarView = snackbar.getView();
+         snackBarView.setBackgroundColor(snackBarView.getResources().getColor(R.color.primary));
          snackbar.show();
      }
 
@@ -156,19 +169,30 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
     @Override
     public void onBindViewHolder(final QuizViewHolder holder, int position) {
 
-        final QuizItem quizList = mQuizItemList.get(position);
+        final QuizItem quizItem = mQuizItemList.get(position);
 
-        holder.Question.setText(quizList.getQuestionText());
+        holder.Question.setText(quizItem.getQuestionText());
 
-        List<String> answers = quizList.getAnswerArray();
+        List<String> answers = quizItem.getAnswerArray();
 
+        // question numbers which has the compound picture
+            if(quizItem.getId() == 35 || quizItem.getId() == 36
+                    || quizItem.getId() == 37
+                    || quizItem.getId() == 38
+                    || quizItem.getId() == 39
+                    || quizItem.getId() == 40
+                    || quizItem.getId() == 41)
+        {
+                holder.imgCompound.setVisibility(View.VISIBLE);
+            }else{
+                holder.imgCompound.setVisibility(View.GONE);
+            }
 
         holder.AnswerA.setText(answers.get(0));
         holder.AnswerB.setText(answers.get(1));
         holder.AnswerC.setText(answers.get(2));
         holder.AnswerD.setText(answers.get(3));
         holder.AnswerE.setText(answers.get(4));
-
 
     }
 
@@ -196,6 +220,7 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
         public TextView AnswerC;
         public TextView AnswerD;
         public TextView AnswerE;
+        public ImageView imgCompound;
 
 
         public QuizViewHolder(View view, RecyclerViewClickListener listener) {
@@ -209,6 +234,8 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
             AnswerC = (TextView) view.findViewById(R.id.tvAnswerC);
             AnswerD = (TextView) view.findViewById(R.id.tvAnswerD);
             AnswerE = (TextView) view.findViewById(R.id.tvAnswerE);
+
+            imgCompound = (ImageView) view.findViewById(R.id.imgCompound);
 
             AnswerA.setOnClickListener(this);
             AnswerB.setOnClickListener(this);

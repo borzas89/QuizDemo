@@ -245,7 +245,7 @@
         " 1.38*10\u00B2\u00B3 db",
         " 7.2*10\u00B2\u00B3 db",
         " 6*10\u00B2\u00B2 db",
-        " 7*10\u00B2\u00B4 db"
+        " 7*10\u00B2\u00B3 db"
 
       ],
       "correctAnswerIndex": 3
@@ -477,7 +477,7 @@
     },
     {
       "id": 33,
-      "questionText":"Ammóniával nem lép reakcióba:",
+      "questionText":"Ammóniával nem lép reakcióba: dupl",
 
       "answerArray":
       [
@@ -487,6 +487,543 @@
         " a nátrium-hidroxid",
         " a kénsav"
 
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 34,
+      "questionText":"Melyik gázzal végezhető el a szökőkútkísérlet?",
+
+      "answerArray":
+      [
+        " NH\u2083",
+        " N\u2082",
+        " CO",
+        " O\u2082",
+        " Ar"
+
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 35,
+      "questionText":"Adjuk meg a vegyület szabályos nevét:",
+
+      "answerArray":
+      [
+         "2-hexén",
+         "2-metilprop-3-én",
+         "2-metilpent-3-én",
+         "4-metilpent-2-én",
+         "3-pentén"
+
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 36,
+      "questionText":"Melyik a konstitúciós izomere az alábbi vegyületnek?",
+
+      "answerArray":
+      [
+        "hex-2-én",
+        "pent-1-én",
+        "4-metilbut-2-én",
+        "2-metilbut-3-én",
+        "3-metilpentán"
+
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 37,
+      "questionText":"Hány darab szigma kötés található az alábbi vegyületben?",
+
+      "answerArray":
+      [
+        "12",
+        "17",
+        "5",
+        "16",
+        "18"
+
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 38,
+      "questionText":"Az alábbi vegyületről melyik állítás a helyes?",
+
+      "answerArray":
+      [
+       "Nincs optikai izomere.",
+       "Nincs cisz-transz izomere.",
+       "Nincs szerkezeti izomere.",
+       "Van szerkezeti, cisz-transz és optikai izomere is.",
+       "Nincs szerkezeti, cisz-transz és optikai izomere."
+
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 39,
+      "questionText":"Az alábbi vegyületnek vannak-e a szerkezeti izomerei között:",
+
+      "answerArray":
+      [
+        "alkán típusú vegyület",
+        "alkin típusú vegyület",
+        "cikloalkén típusú vegyület",
+        "cikloalkán típusú vegyület",
+        "aromás vegyület"
+
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 40,
+      "questionText":"Az alábbi vegyületnek jellemző reakciója:",
+
+      "answerArray":
+      [
+        "a szubsztitúció",
+        "az elimináció",
+        "a kondenzáció",
+        "a ciklizáció",
+        "az addició és a polimerizáció"
+
+      ],
+      "correctAnswerIndex": 4
+    },
+    {
+      "id": 41,
+      "questionText":"A Br\u2082-mal reagáltatva a termék:",
+
+      "answerArray":
+      [
+        "2,2-dibróm-4-metilpentán",
+        "2,3-dibróm-4-metilpentán",
+        "2,3-dibróm-4-metilpentán",
+        "2-bróm-4-metilpentán",
+        "3-bróm-4-metilpentán"
+
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 42,
+      "questionText":"A krakkolás:",
+
+      "answerArray":
+      [
+        "a bakelit típusú műanyagok térhálósítási folyamata",
+        "a földgáz egyik tisztítási folyamata az acetilének hőbontással történő átalakítása olefinekké",
+        "az olefinek hőbontással történő átalakítása közepes szénatomszámú paraffinokká",
+        "3-bróm-4-metilpentánná",
+        " a paraffinok hőbontással történő átalakítása kis szénatomszámú olefinekké (főként etilénné) és a kiindulásinál kisebb szénatomszámú paraffinokká",
+
+
+      ],
+      "correctAnswerIndex": 4
+    },
+    {
+      "id": 43,
+      "questionText":"Melyik termék keletkezik (főként) a propén és a hidrogén-klorid reakciójakor?",
+
+      "answerArray":
+      [
+        "1-klórpropán",
+        "2-klórpropán",
+        "allil-klorid",
+        "vinil-klorid",
+        " 1,2-diklórpropán"
+
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 44,
+      "questionText":"1,1-diklóretán előállításához melyik lehet a legcélravezetőbb út?",
+
+      "answerArray":
+      [
+        "C\u2082H\u2086 + 2HCl",
+        "C\u2082H\u2084 + 2HCl",
+        "C\u2082H\u2084 + Cl\u2082",
+        "C\u2082H\u2086 + Cl\u2082",
+        "C\u2082H\u2082 + 2HCl"
+
+      ],
+      "correctAnswerIndex": 4
+    },
+    {
+      "id": 45,
+      "questionText":" Melyik az a C\u2085H\u2081\u2082 összegképletű molekula, amelyiknek bármelyik hidrogénjét cseréljük ki klóratomra, mindig ugyanahhoz a molekulához jutunk?",
+
+      "answerArray":
+      [
+        "n-pentán",
+        "2-metil-bután",
+        "2,2-dimetil-propán",
+        "mindhárom",
+        "nincs ilyen"
+
+      ],
+      "correctAnswerIndex": 2
+    },
+
+    {
+      "id": 46,
+      "questionText":"Milyen viszonyban van egymással a nyílt láncú D-glükóz és az α-D-glükóz?",
+
+      "answerArray":
+      [
+        "konstitúciós izomerek",
+        "enantiomerpár",
+        "konfigurációs izomerek",
+        "konformerek",
+        "azonos a konstitúciójuk, a konfigurációjuk és a konformációjuk"
+
+
+      ],
+      "correctAnswerIndex": 0
+    },
+
+    {
+      "id": 47,
+      "questionText":"Melyik vegyületnek nincs cisz-transz izomerje?",
+
+      "answerArray":
+      [
+        "3-metil-3-hexén",
+        "pent-2-én",
+        "3-etilpent-2-én",
+        "3,4-dimetilhex-3-én",
+        "hex-3-én"
+      ],
+      "correctAnswerIndex": 2
+    },
+
+    {
+      "id": 48,
+      "questionText":"Mi az ezüsttükörpróba lényege?",
+
+      "answerArray":
+      [
+        "Ammóniás közegben az ezüstionokat redukálja az aldehidcsoport.",
+        "Lúgos közegben a ketonok karbonsavakká oxidálódnak.",
+        "Ammóniás közegben az ezüstion oxidálja a szerves vegyületeket.",
+        "Ammóniás közegben a hidroxilcsoport oxidálódik.",
+        "Ezüst-nitrát-oldatból az ezüstionok ezüstté redukálódnak"
+
+      ],
+      "correctAnswerIndex": 0
+    },
+
+    {
+      "id": 49,
+      "questionText":"A felsorolt vegyületeket vízben oldjuk. Melyik esetben tér el az oldat pH-ja a semlegességi ponttól? a) CH\u2083COOH b) C\u2086H\u2085CH\u2082OH c) CH\u2083NH\u2082 d) CH\u2083OH e) fenol ",
+
+      "answerArray":
+      [
+        "mindegyiknél",
+        "a, c és e esetében",
+        " b és d esetében",
+        "csak az a-nál",
+        "b és c esetében"
+
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 50,
+      "questionText":"Melyik sorban vannak kizárólag olyan anyagok, amelyek adják az ezüsttükörpróbát?",
+
+      "answerArray":
+      [
+        "hangyasav, glükóz, formalin",
+        "benzoesav, etanal, formaldehid",
+        "etanol, répacukor, glicerin",
+        "ecetsav, hangyasav, propionsav",
+        "anilin, etilén-diamin, piridin"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": 51,
+      "questionText":"Melyik sorban folytatódik helyesen a megkezdett mondat?\nA primer aminok…",
+
+      "answerArray":
+      [
+        "… azok a szerves vegyületek, amelyekben az ammónia primer szénatomhoz kapcsolódik.",
+        " … azok a szerves vegyületek, amelyekben a nitrogénatom primer szénatomhoz kapcsolódik, és salétromossavval diazónium sót képeznek.",
+        "… azok a szerves vegyületek, melyekben az aminocsoport a szénláncban van.",
+        "… azok a szerves vegyületek, amelyekben az ammónia egy hidrogénjét szénhidrogéncsoporttal helyettesítjük.",
+        " …egy aminocsoportot tartalmazó szerves vegyületek."
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 52,
+      "questionText":"Melyik sorban vannak csak olyan anyagok, amelyek fém nátriummal hidrogént fejlesztenek?",
+
+      "answerArray":
+      [
+        "etanol, karbolsav, formalin",
+        "aceton, fenol, faszesz",
+        "fenol, etanol, ecetsav",
+        "formaldehid, glikol, glicerin",
+        "dimetil-keton, ecetsav, kalbolsav."
+      ],
+      "correctAnswerIndex": 2
+    },
+
+    {
+      "id": 53,
+      "questionText":"Melyik sorban vannak csak olyan anyagok, amelyek egy homológsorba tartoznak?",
+
+      "answerArray":
+      [
+        "etanol, karbolsav, formalin",
+        "aceton, fenol, faszesz",
+        "pirokatechin, rezorcin, hidrokinon",
+        "formaldehid, glikol, glicerin",
+        "dimetil-keton, ecetsav, kalbolsav."
+      ],
+      "correctAnswerIndex": 2
+    },
+
+    {
+      "id": 54,
+      "questionText":"Melyik sorban vannak csak olyan anyagok, amelyek kétértékűek a saját homológsorukban?",
+
+      "answerArray":
+      [
+        "glikol, oxálsav, rezorcin",
+        "formalin, fenol, faszesz",
+        "glicerin, etán-1,2-diol, borostyánkősav ",
+        "karbolsav, hidrokinon, glikol",
+        "dimetil-keton, ecetsav, kalbolsav."
+      ],
+      "correctAnswerIndex": 0
+    },
+
+    {
+      "id": 55,
+      "questionText":" Melyik sorban vannak csak olyan anyagok, amelyek nátrium-hidroxiddal reagálnak?",
+
+      "answerArray":
+      [
+        "hangyasav, etanol, karbolsav",
+        "aceton, fenol, ecetsav",
+        "fenol, hangyasav, ecetsav ",
+        "karbolsav, glikol, glicerin",
+        "hangyasav, ecetsav, metanol"
+      ],
+      "correctAnswerIndex": 2
+    },
+
+    {
+      "id": 56,
+      "questionText":"A fenil-csoport összegképlete:",
+
+      "answerArray":
+      [
+        "C\u2085H\u2081\u2081\u208B",
+        "C\u2086H\u2085\u208B",
+        "C\u2087H\u2087\u208B",
+        "C\u2082H\u2083\u208B",
+        "C\u2086H\u2085O"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": 57,
+      "questionText":"Melyik anyag az, amelyik brómos vízzel közönséges körülmények között nem reagál?",
+
+      "answerArray":
+      [
+        "C\u2082H\u2082",
+        "C\u2082H\u2084",
+        "C\u2083H\u2086",
+        "C\u2086H\u2086",
+        "Mindegyik felírt anyag reakcióba lép."
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 58,
+      "questionText":"Az alábbi molekulák közül melyik az, amelyiknek minden atomja egy síkban van?",
+
+      "answerArray":
+      [
+        "1,2-dibrómetán",
+        "toluol",
+        "1,2-dibrómetén",
+        "etán",
+        "1,1-dibrómetán"
+      ],
+      "correctAnswerIndex": 2
+    },
+
+    {
+      "id": 59,
+      "questionText":"Az alábbi reakciók közül melyik az, amelyiknél a Markovnyikov-szabályt kell alkalmazni?",
+
+      "answerArray":
+      [
+        "etén HCl addíciójakor",
+        "but-2-én Cl2 addíciójakor",
+        "but-1-én HCl addíciójakor",
+        "etén H2O addíciójakor",
+        "Mindegyik felírt reakciónál"
+      ],
+      "correctAnswerIndex": 2
+    },
+
+    {
+      "id": 60,
+      "questionText":"Melyik a hőre keményedő műanyag?",
+
+      "answerArray":
+      [
+        "PVC",
+        "polipropilén",
+        "polisztirol",
+        "bakelit",
+        "nejlon"
+      ],
+      "correctAnswerIndex": 3
+    },
+
+    {
+      "id": 61,
+      "questionText":"Melyik állításban van hiba?",
+
+      "answerArray":
+      [
+        "A CC\u2081\u2084 tűzoltószer.",
+        "A C\u2082H\u2084 gyümölcs érlelő.",
+        "A C\u2086H\u2086 rákkeltő.",
+        "A glikol mérgező.",
+        "A glükóz a gyümölcscukor."
+      ],
+      "correctAnswerIndex": 4
+    },
+
+    {
+      "id": 62,
+      "questionText":"Az alábbi műanyagok elégetése során melyik esetben kerülhet klórszennyezés a levegőbe?",
+
+      "answerArray":
+      [
+        "bakelit",
+        "polietilén",
+        "gumil",
+        "PVC",
+        "polisztirol"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": 63,
+      "questionText":"Az alábbi vegyületek közül melyik nem mérgező vagy veszélyes az emberi szervezetre?\n(Melyik a legkevésbé veszélyes anyag?)",
+
+      "answerArray":
+      [
+        "a metanol",
+        "az alanin",
+        "a fenol",
+        "a benzol",
+        "a metanal"
+      ],
+      "correctAnswerIndex": 1
+    },
+
+    {
+      "id": 64,
+      "questionText":"Az etinre vonatkozó állítások közül melyik állítás helytelen?",
+
+      "answerArray":
+      [
+        "Telítetlen szénhidrogén.",
+        "Égése erősen kormozó.",
+        "A brómmal szobahőmérsékleten addíciós reakcióba lép.",
+        "Köznapi neve etilén.",
+        "Molekulája lineáris."
+      ],
+      "correctAnswerIndex": 3
+    },
+
+    {
+      "id": 65,
+      "questionText":"Melyik reakció nem megy végbe az alábbiak közül (még melegítés vagy katalizátor hatására sem)?",
+
+      "answerArray":
+      [
+        "CH\u2084 + Cl\u2082 → CH\u2083Cl + HCl",
+        "CH\u2082 = CH\u2082 + HCl → CH\u2083 - CH\u2082Cl",
+        "CH\u2084 + HCl → CH\u2083Cl + H\u2082",
+        "2 CH\u2084 → C\u2082H\u2082 + 3 H\u2082",
+        "C\u2086H\u2086 + HNO\u2083 → C\u2086H\u2085 - NO\u2082 + H\u2082O."
+      ],
+      "correctAnswerIndex": 2
+    },
+
+    {
+      "id": 66,
+      "questionText":"Hány különböző nyílt láncú, C4H10 összegképletű vegyület létezik?",
+
+      "answerArray":
+      [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6."
+      ],
+      "correctAnswerIndex": 0
+    },
+
+    {
+      "id": 67,
+      "questionText":" Az alábbi vegyületek közül melyik nem mérgező vagy veszélyes az emberi szervezetre? (Melyik a legkevésbé veszélyes anyag?)",
+
+      "answerArray":
+      [
+        "a formaldehid",
+        "a glicin",
+        "a fenol",
+        "a benzol",
+        "a metil-alkohol"
+      ],
+      "correctAnswerIndex": 1
+    },
+
+    {
+      "id": 68,
+      "questionText":"Az alábbiak közül melyik egyenlet írja le a szintézisgáz előállítását?",
+      "answerArray":
+      [
+        "CH\u2084 + 2 O\u2082 = CO\u2082 + H\u20820",
+        "2 CH\u2084 → C\u2082H\u2082 + 3 H\u2082",
+        "CH\u2084 + H\u2082O → CO + 3 H\u2082",
+        "C\u2088H\u2081\u2088 → C\u2082H\u2084 + C\u2086H\u2081\u2084",
+        "2 CH\u2084 → C\u2082H\u2084 + 2 H\u2082"
+      ],
+      "correctAnswerIndex": 2
+    },
+
+    {
+      "id": 69,
+      "questionText":"Molekulája nem tartalmaz pi-kötést:?",
+      "answerArray":
+      [
+        "az etén",
+        "a toloul",
+        "a vinil-klorid",
+        "a polietilén",
+        "a kaucsuk"
       ],
       "correctAnswerIndex": 3
     }
