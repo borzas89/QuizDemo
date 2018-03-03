@@ -11,6 +11,7 @@ import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -39,8 +40,6 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
     public static int getScore() {
         return score;
     }
-
-
 
 
 
@@ -111,21 +110,21 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
         TextView questionText = (TextView) itemView.findViewById(R.id.tvQestion);
         questionText.setTypeface(questionFont);
 
-        TextView answerTextA = (TextView) itemView.findViewById(R.id.tvAnswerA);
+        Button answerTextA = (Button) itemView.findViewById(R.id.tvAnswerA);
         answerTextA.setTypeface(font);
 
-        TextView answerTextB = (TextView) itemView.findViewById(R.id.tvAnswerB);
+        Button answerTextB = (Button) itemView.findViewById(R.id.tvAnswerB);
         answerTextB.setTypeface(font);
 
 
-        TextView answerTextC = (TextView) itemView.findViewById(R.id.tvAnswerC);
+        Button answerTextC = (Button) itemView.findViewById(R.id.tvAnswerC);
         answerTextC.setTypeface(font);
 
 
-        TextView answerTextD = (TextView) itemView.findViewById(R.id.tvAnswerD);
+        Button answerTextD = (Button) itemView.findViewById(R.id.tvAnswerD);
         answerTextD.setTypeface(font);
 
-        TextView answerTextE = (TextView) itemView.findViewById(R.id.tvAnswerE);
+        Button answerTextE = (Button) itemView.findViewById(R.id.tvAnswerE);
         answerTextE.setTypeface(font);
 
         final QuizRecyclerAdapter.QuizViewHolder vh = new QuizViewHolder(itemView,
@@ -176,17 +175,11 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
         List<String> answers = quizItem.getAnswerArray();
 
         // question numbers which has the compound picture
-            if(quizItem.getId() == 35 || quizItem.getId() == 36
-                    || quizItem.getId() == 37
-                    || quizItem.getId() == 38
-                    || quizItem.getId() == 39
-                    || quizItem.getId() == 40
-                    || quizItem.getId() == 41)
-        {
-                holder.imgCompound.setVisibility(View.VISIBLE);
-            }else{
-                holder.imgCompound.setVisibility(View.GONE);
-            }
+        if (quizItem.isCompound()) {
+            holder.imgCompound.setVisibility(View.VISIBLE);
+        } else {
+            holder.imgCompound.setVisibility(View.GONE);
+        }
 
         holder.AnswerA.setText(answers.get(0));
         holder.AnswerB.setText(answers.get(1));
@@ -215,11 +208,11 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
     public class QuizViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         public TextView Question;
-        public TextView AnswerA;
-        public TextView AnswerB;
-        public TextView AnswerC;
-        public TextView AnswerD;
-        public TextView AnswerE;
+        public Button AnswerA;
+        public Button AnswerB;
+        public Button AnswerC;
+        public Button AnswerD;
+        public Button AnswerE;
         public ImageView imgCompound;
 
 
@@ -229,13 +222,13 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
             mItemListener = listener;
 
             Question = (TextView) view.findViewById(R.id.tvQestion);
-            AnswerA = (TextView) view.findViewById(R.id.tvAnswerA);
-            AnswerB = (TextView) view.findViewById(R.id.tvAnswerB);
-            AnswerC = (TextView) view.findViewById(R.id.tvAnswerC);
-            AnswerD = (TextView) view.findViewById(R.id.tvAnswerD);
-            AnswerE = (TextView) view.findViewById(R.id.tvAnswerE);
-
+            AnswerA = (Button) view.findViewById(R.id.tvAnswerA);
+            AnswerB = (Button) view.findViewById(R.id.tvAnswerB);
+            AnswerC = (Button) view.findViewById(R.id.tvAnswerC);
+            AnswerD = (Button) view.findViewById(R.id.tvAnswerD);
+            AnswerE = (Button) view.findViewById(R.id.tvAnswerE);
             imgCompound = (ImageView) view.findViewById(R.id.imgCompound);
+
 
             AnswerA.setOnClickListener(this);
             AnswerB.setOnClickListener(this);
@@ -245,6 +238,7 @@ public class QuizRecyclerAdapter extends RecyclerView.Adapter<QuizRecyclerAdapte
 
 
         }
+
 
 
         @Override

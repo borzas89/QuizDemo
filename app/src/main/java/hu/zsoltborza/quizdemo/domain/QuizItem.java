@@ -27,16 +27,21 @@ public class QuizItem implements Parcelable {
     @SerializedName("correctAnswerIndex")
     @Expose
     private Integer correctAnswerIndex;
+    @SerializedName ("isCompound")
+    @Expose
+    private boolean isCompound;
 
     boolean clicked;
 
-    public QuizItem(Integer id, String questionText, List<String> answerArray, Integer correctAnswerIndex, boolean clicked) {
+    public QuizItem(Integer id, String questionText, List<String> answerArray, Integer correctAnswerIndex, boolean clicked,boolean isCompound) {
         this.id = id;
         this.questionText = questionText;
         this.answerArray = answerArray;
         this.correctAnswerIndex = correctAnswerIndex;
         this.clicked = clicked;
+        this.isCompound = isCompound;
     }
+
 
     public boolean isClicked() {
         return clicked;
@@ -78,6 +83,14 @@ public class QuizItem implements Parcelable {
         this.correctAnswerIndex = correctAnswerIndex;
     }
 
+    public boolean isCompound() {
+        return isCompound;
+    }
+
+    public void setCompound(boolean compound) {
+        isCompound = compound;
+    }
+
     @Override public int describeContents() {
         return 0;
     }
@@ -88,9 +101,11 @@ public class QuizItem implements Parcelable {
         dest.writeList(answerArray);
         dest.writeInt(correctAnswerIndex);
         dest.writeByte((byte) (clicked ? 1 : 0));     //if clicked == true, byte == 1
+        dest.writeByte((byte) (isCompound ? 1 : 0));
 
 
     }
+
 
     public static final Creator<QuizItem> CREATOR = new Creator<QuizItem>() {
         @Override
@@ -102,8 +117,9 @@ public class QuizItem implements Parcelable {
             List<String> redAnswers = in.createStringArrayList();
             int redCorrectIndex = in.readInt();
             boolean redClicked = in.readByte() !=0;// clicked == true if byte != 0
+            boolean isCompound = in.readByte() !=0;
 
-            return new QuizItem(redId,redQuestionText,redAnswers,redCorrectIndex,redClicked);
+            return new QuizItem(redId,redQuestionText,redAnswers,redCorrectIndex,redClicked,isCompound);
         }
 
         @Override

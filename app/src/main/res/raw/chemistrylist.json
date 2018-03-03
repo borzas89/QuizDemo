@@ -11,7 +11,8 @@
         "26,7 g",
         "21,3 g"
       ],
-      "correctAnswerIndex": 0
+      "correctAnswerIndex": 0,
+      "isCompound": false
 
     },
     {
@@ -25,7 +26,8 @@
         "H\u2082",
         "F\u2082"
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
 
     },
     {
@@ -39,7 +41,8 @@
         "hidrogén és az oxigén keveréke",
         "a hidrogén vegyülete"
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
 
     },
     {
@@ -53,7 +56,8 @@
         "a hidrogén-klorid",
         "a nitrogén"
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
 
     },
     {
@@ -67,7 +71,8 @@
         "a nitrogénnek",
         "az oxigénnek"
       ],
-      "correctAnswerIndex": 4
+      "correctAnswerIndex": 4,
+      "isCompound": false
     },
 
     {
@@ -83,7 +88,8 @@
         "csak a (b) és (d) ",
         "mindegyik igaz"
       ],
-      "correctAnswerIndex": 1
+      "correctAnswerIndex": 1,
+      "isCompound": false
     },
     {
       "id": 7,
@@ -99,7 +105,8 @@
         "Ni(NO\u2083)\u2082"
 
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
     },
     {
       "id": 8,
@@ -114,7 +121,8 @@
         "Ca, Mg, Sr, Ba",
         "minden páros rendszámú elem"
       ],
-      "correctAnswerIndex": 1
+      "correctAnswerIndex": 1,
+      "isCompound": false
     },
     {
       "id": 9,
@@ -128,7 +136,8 @@
         "SO\u2083",
         "SO\u00B2 \u2084 \u208B"
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
     },
     {
       "id": 10,
@@ -142,7 +151,8 @@
         "kálium-nitrát-oldat + nátrium-hidroxid-oldat",
         "kalcium-klorid-oldat + trinátrium-foszfát-oldat"
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
     {
       "id": 11,
@@ -156,7 +166,8 @@
         "2 Mg + O\u2082 = 2 MgO",
         "2 Pb + O\u2082 = 2 PbO"
       ],
-      "correctAnswerIndex": 0
+      "correctAnswerIndex": 0,
+      "isCompound": false
     },
     {
       "id": 12,
@@ -171,7 +182,8 @@
         "H\u2082S",
         "SO\u2082"
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
     },
     {
       "id": 13,
@@ -186,7 +198,8 @@
         "P\u2084, SiO\u2082, NO\u2082, Cu",
         "He, CO\u2082, NaNO\u2083, Na"
       ],
-      "correctAnswerIndex": 1
+      "correctAnswerIndex": 1,
+      "isCompound": false
     },
     {
       "id": 14,
@@ -202,7 +215,8 @@
         " OH\u208B"
 
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
     {
       "id": 15,
@@ -218,7 +232,8 @@
         "A két oldatban azonos tömegű oldott anyag van."
 
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
     },
     {
       "id": 16,
@@ -233,7 +248,8 @@
         " az ammónia"
 
       ],
-      "correctAnswerIndex": 4
+      "correctAnswerIndex": 4,
+      "isCompound": false
     },
     {
       "id": 17,
@@ -248,7 +264,8 @@
         " 7*10\u00B2\u00B3 db"
 
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
     {
       "id": 18,
@@ -263,7 +280,8 @@
         "b és c esetében"
 
       ],
-      "correctAnswerIndex": 1
+      "correctAnswerIndex": 1,
+      "isCompound": false
     },
     {
       "id": 19,
@@ -278,7 +296,8 @@
         "A hidrogén-fluorid erősebb sav, mint a hidrogén-jodid."
 
       ],
-      "correctAnswerIndex": 1
+      "correctAnswerIndex": 1,
+      "isCompound": false
     },
     {
       "id": 20,
@@ -293,7 +312,8 @@
         "levegőből"
 
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
     },
     {
       "id": 21,
@@ -308,7 +328,8 @@
         "0.10 g"
 
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
     },
     {
       "id": 22,
@@ -323,7 +344,8 @@
         "Előállításuk vegyületeikből minden esetben redukcióval történik."
 
       ],
-      "correctAnswerIndex": 4
+      "correctAnswerIndex": 4,
+      "isCompound": false
     },
     {
       "id": 23,
@@ -338,7 +360,8 @@
         "Na\u2082S\u2084O\u2086   Fe\u2083O\u2084  NaClO\u2082"
 
       ],
-      "correctAnswerIndex": 4
+      "correctAnswerIndex": 4,
+      "isCompound": false
     },
     {
       "id": 24,
@@ -353,7 +376,8 @@
         "A jód kiválik, mert az erősebb sav kiszorítja a gyengébbet a vegyületéből.."
 
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
     {
       "id": 25,
@@ -368,7 +392,8 @@
         "Nincs allotrop módosulata.."
 
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
     {
       "id": 26,
@@ -383,7 +408,8 @@
         "1.2*10\u00B2\u00B3"
 
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
     {
       "id": 27,
@@ -398,7 +424,8 @@
         "A mészégetés endoterm folyamat."
 
       ],
-      "correctAnswerIndex": 0
+      "correctAnswerIndex": 0,
+      "isCompound": false
     },
     {
       "id": 28,
@@ -413,7 +440,8 @@
         "az aluminium"
 
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
     {
       "id": 29,
@@ -428,7 +456,8 @@
         " 1 : 1"
 
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
     {
       "id": 30,
@@ -443,7 +472,8 @@
         " S + O\u2082 = SO\u2082"
 
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
     {
       "id": 31,
@@ -458,7 +488,8 @@
         "CaO"
 
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
     {
       "id": 32,
@@ -473,11 +504,12 @@
         " a kénsav"
 
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
     {
       "id": 33,
-      "questionText":"Ammóniával nem lép reakcióba: dupl",
+      "questionText":"Ammóniával nem lép reakcióba: ",
 
       "answerArray":
       [
@@ -503,7 +535,8 @@
         " Ar"
 
       ],
-      "correctAnswerIndex": 0
+      "correctAnswerIndex": 0,
+      "isCompound": false
     },
     {
       "id": 35,
@@ -518,7 +551,8 @@
          "3-pentén"
 
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": true
     },
     {
       "id": 36,
@@ -533,7 +567,8 @@
         "3-metilpentán"
 
       ],
-      "correctAnswerIndex": 0
+      "correctAnswerIndex": 0,
+      "isCompound": true
     },
     {
       "id": 37,
@@ -548,7 +583,8 @@
         "18"
 
       ],
-      "correctAnswerIndex": 1
+      "correctAnswerIndex": 1,
+      "isCompound": true
     },
     {
       "id": 38,
@@ -563,7 +599,8 @@
        "Nincs szerkezeti, cisz-transz és optikai izomere."
 
       ],
-      "correctAnswerIndex": 0
+      "correctAnswerIndex": 0,
+      "isCompound": true
     },
     {
       "id": 39,
@@ -578,7 +615,8 @@
         "aromás vegyület"
 
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": true
     },
     {
       "id": 40,
@@ -593,7 +631,8 @@
         "az addició és a polimerizáció"
 
       ],
-      "correctAnswerIndex": 4
+      "correctAnswerIndex": 4,
+      "isCompound": true
     },
     {
       "id": 41,
@@ -608,7 +647,8 @@
         "3-bróm-4-metilpentán"
 
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": true
     },
     {
       "id": 42,
@@ -624,7 +664,8 @@
 
 
       ],
-      "correctAnswerIndex": 4
+      "correctAnswerIndex": 4,
+      "isCompound": false
     },
     {
       "id": 43,
@@ -639,7 +680,8 @@
         " 1,2-diklórpropán"
 
       ],
-      "correctAnswerIndex": 1
+      "correctAnswerIndex": 1,
+      "isCompound": false
     },
     {
       "id": 44,
@@ -654,7 +696,8 @@
         "C\u2082H\u2082 + 2HCl"
 
       ],
-      "correctAnswerIndex": 4
+      "correctAnswerIndex": 4,
+      "isCompound": false
     },
     {
       "id": 45,
@@ -669,7 +712,8 @@
         "nincs ilyen"
 
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
     },
 
     {
@@ -686,7 +730,8 @@
 
 
       ],
-      "correctAnswerIndex": 0
+      "correctAnswerIndex": 0,
+      "isCompound": false
     },
 
     {
@@ -701,7 +746,8 @@
         "3,4-dimetilhex-3-én",
         "hex-3-én"
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
     },
 
     {
@@ -717,7 +763,8 @@
         "Ezüst-nitrát-oldatból az ezüstionok ezüstté redukálódnak"
 
       ],
-      "correctAnswerIndex": 0
+      "correctAnswerIndex": 0,
+      "isCompound": false
     },
 
     {
@@ -733,7 +780,8 @@
         "b és c esetében"
 
       ],
-      "correctAnswerIndex": 1
+      "correctAnswerIndex": 1,
+      "isCompound": false
     },
     {
       "id": 50,
@@ -747,7 +795,8 @@
         "ecetsav, hangyasav, propionsav",
         "anilin, etilén-diamin, piridin"
       ],
-      "correctAnswerIndex": 0
+      "correctAnswerIndex": 0,
+      "isCompound": false
     },
     {
       "id": 51,
@@ -761,7 +810,8 @@
         "… azok a szerves vegyületek, amelyekben az ammónia egy hidrogénjét szénhidrogéncsoporttal helyettesítjük.",
         " …egy aminocsoportot tartalmazó szerves vegyületek."
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
     {
       "id": 52,
@@ -775,7 +825,8 @@
         "formaldehid, glikol, glicerin",
         "dimetil-keton, ecetsav, kalbolsav."
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
     },
 
     {
@@ -790,7 +841,8 @@
         "formaldehid, glikol, glicerin",
         "dimetil-keton, ecetsav, kalbolsav."
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
     },
 
     {
@@ -805,7 +857,8 @@
         "karbolsav, hidrokinon, glikol",
         "dimetil-keton, ecetsav, kalbolsav."
       ],
-      "correctAnswerIndex": 0
+      "correctAnswerIndex": 0,
+      "isCompound": false
     },
 
     {
@@ -820,7 +873,8 @@
         "karbolsav, glikol, glicerin",
         "hangyasav, ecetsav, metanol"
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
     },
 
     {
@@ -835,7 +889,8 @@
         "C\u2082H\u2083\u208B",
         "C\u2086H\u2085O"
       ],
-      "correctAnswerIndex": 1
+      "correctAnswerIndex": 1,
+      "isCompound": false
     },
     {
       "id": 57,
@@ -849,7 +904,8 @@
         "C\u2086H\u2086",
         "Mindegyik felírt anyag reakcióba lép."
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
     {
       "id": 58,
@@ -863,7 +919,8 @@
         "etán",
         "1,1-dibrómetán"
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
     },
 
     {
@@ -878,7 +935,8 @@
         "etén H2O addíciójakor",
         "Mindegyik felírt reakciónál"
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
     },
 
     {
@@ -893,7 +951,8 @@
         "bakelit",
         "nejlon"
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
 
     {
@@ -908,7 +967,8 @@
         "A glikol mérgező.",
         "A glükóz a gyümölcscukor."
       ],
-      "correctAnswerIndex": 4
+      "correctAnswerIndex": 4,
+      "isCompound": false
     },
 
     {
@@ -923,7 +983,8 @@
         "PVC",
         "polisztirol"
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
     {
       "id": 63,
@@ -937,7 +998,8 @@
         "a benzol",
         "a metanal"
       ],
-      "correctAnswerIndex": 1
+      "correctAnswerIndex": 1,
+      "isCompound": false
     },
 
     {
@@ -952,7 +1014,8 @@
         "Köznapi neve etilén.",
         "Molekulája lineáris."
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     },
 
     {
@@ -967,7 +1030,8 @@
         "2 CH\u2084 → C\u2082H\u2082 + 3 H\u2082",
         "C\u2086H\u2086 + HNO\u2083 → C\u2086H\u2085 - NO\u2082 + H\u2082O."
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
     },
 
     {
@@ -982,7 +1046,8 @@
         "5",
         "6."
       ],
-      "correctAnswerIndex": 0
+      "correctAnswerIndex": 0,
+      "isCompound": false
     },
 
     {
@@ -997,7 +1062,8 @@
         "a benzol",
         "a metil-alkohol"
       ],
-      "correctAnswerIndex": 1
+      "correctAnswerIndex": 1,
+      "isCompound": false
     },
 
     {
@@ -1011,7 +1077,8 @@
         "C\u2088H\u2081\u2088 → C\u2082H\u2084 + C\u2086H\u2081\u2084",
         "2 CH\u2084 → C\u2082H\u2084 + 2 H\u2082"
       ],
-      "correctAnswerIndex": 2
+      "correctAnswerIndex": 2,
+      "isCompound": false
     },
 
     {
@@ -1025,7 +1092,8 @@
         "a polietilén",
         "a kaucsuk"
       ],
-      "correctAnswerIndex": 3
+      "correctAnswerIndex": 3,
+      "isCompound": false
     }
 
   ]
